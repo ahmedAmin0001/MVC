@@ -1,0 +1,86 @@
+{% extends 'base.html' %}
+
+{% block title %}Reset Password{% endblock %}
+
+{% block body %}
+{% if user.errors is not empty %}
+<p>Errors:</p>
+<ul>
+    {% for error in user.errors %}
+        <li>{{ error }}</li>
+    {% endfor %}
+</ul>
+{% endif %}
+
+  <h1>Please choose your new password</h1>
+  <form method="POST" action="/passwordreset/resetpassword" id="resetForm">
+
+   <input type="hidden" name="token" value="{{ token }}" />
+
+    <div class="form-group">
+      <label for="inputPassword">Password</label>
+      <input type="password" id="inputPassword" name="password" placeholder="Password" required pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{12,}$" title="Minimum 12 chars, at least one letter and number" class="form-control" />
+    </div>
+
+    <div class="form-group">
+      <label for="inputPasswordConf">Re-enter Password</label>
+      <input type="password" id="inputPasswordConf" name="passwordConf" placeholder="Re-enter Password" required class="form-control" />
+    </div>
+    <button type="submit" class="btn btn-default">Reset Password</button>
+
+  </form>
+
+  <script src="/JS/hideShowPassword.min.js"></script>
+  
+  <script>
+    $.validator.addMethod('validatePassword',
+        function(value, element, param) {
+            if (value != '') {
+                if (value.match(/.*[a-z]+.*/i) == null) {
+                    return false;
+                }
+                if (value.match(/.*\d+.*/) == null) {
+                    return false;
+                }
+                if (value.match(/.*[A-Z]+.*/) == null) {
+                    return false;
+                }
+            }
+
+            return true;
+        },
+        'Must contain at least one Capital letter and one number'
+    );
+
+    
+    $(document).ready(function() {
+
+        /**
+         * Validate the form
+         */
+        $('#resetForm').validate({
+            rules: {
+                password: {
+                    required: true,
+                    minlength: 12,
+                    validatePassword: true
+                },
+                passwordConf: {
+                    equalTo: '#inputPassword'
+                }
+            }
+        });
+         /**
+              * Show password toggle button
+              */
+              $('#inputPassword').hideShowPassword({
+                show: false,
+                innerToggle: 'focus'
+        });
+        $('#inputPasswordConf').hideShowPassword({
+                show: false,
+                innerToggle: 'focus'
+        });
+    });
+</script>
+{% endblock %}

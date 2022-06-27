@@ -1,0 +1,21 @@
+[03-Sep-2021 21:30:11 Europe/Berlin] 
+
+
+ ............ 
+Uncaught exception: 'Exception' with message 'No route matched ya negm!'
+Stack trace: #0 C:\xampp\htdocs\MVC\Public\index.php(35): Core\Router->dispatch('favicon.ico')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\MVC\Core\Router.php' on line 114
+[03-Sep-2021 21:39:09 Europe/Berlin] 
+
+
+ ............ 
+Uncaught exception: 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'mvc_app.posts' doesn't exist'
+Stack trace: #0 C:\xampp\htdocs\MVC\App\Models\BlogM.php(10): PDO->query('SELECT *FROM po...')
+#1 C:\xampp\htdocs\MVC\App\Controllers\Blog.php(28): App\Models\BlogM::getPosts()
+#2 [internal function]: App\Controllers\Blog->showPostsAction(Array)
+#3 C:\xampp\htdocs\MVC\Core\Controller.php(20): call_user_func(Array, Array)
+#4 C:\xampp\htdocs\MVC\Core\Router.php(106): Core\Controller->__call('showpostsAction', Array)
+#5 C:\xampp\htdocs\MVC\Public\index.php(35): Core\Router->dispatch('blog/showposts')
+#6 {main}
+Thrown in 'C:\xampp\htdocs\MVC\App\Models\BlogM.php' on line 10

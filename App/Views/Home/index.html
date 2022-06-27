@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block title %}Home{% endblock %}
+
+{% block body %}
+    <h1>Elite</h1>
+    {% if current_user %}
+        <h3>Hello {{current_user.name}}</h3>
+    {% else %}
+        <h3>Welcome to our site</h3>
+        <a href="/signup">Signup</a> or <a href="/login">Login</a>.
+    {% endif %}
+
+{% endblock %}

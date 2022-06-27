@@ -1,0 +1,32 @@
+[15-Oct-2021 19:23:10 Europe/Berlin] 
+
+
+ ............ 
+Uncaught exception: 'Exception' with message 'No route matched ya negm!'
+Stack trace: #0 C:\xampp\htdocs\MVC\Public\index.php(42): Core\Router->dispatch('sd')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\MVC\Core\Router.php' on line 114
+[15-Oct-2021 19:24:37 Europe/Berlin] 
+
+
+ ............ 
+Uncaught exception: 'Exception' with message 'No route matched ya negm!'
+Stack trace: #0 C:\xampp\htdocs\MVC\Public\index.php(42): Core\Router->dispatch('sd')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\MVC\Core\Router.php' on line 114
+[15-Oct-2021 19:24:42 Europe/Berlin] 
+
+
+ ............ 
+Uncaught exception: 'Exception' with message 'No route matched ya negm!'
+Stack trace: #0 C:\xampp\htdocs\MVC\Public\index.php(42): Core\Router->dispatch('sd')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\MVC\Core\Router.php' on line 114
+[15-Oct-2021 19:25:24 Europe/Berlin] 
+
+
+ ............ 
+Uncaught exception: 'Exception' with message 'No route matched ya negm!'
+Stack trace: #0 C:\xampp\htdocs\MVC\Public\index.php(42): Core\Router->dispatch('sd')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\MVC\Core\Router.php' on line 114

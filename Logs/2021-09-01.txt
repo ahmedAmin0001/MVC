@@ -1,0 +1,126 @@
+[01-Sep-2021 19:47:00 Europe/Berlin] Uncaught exception: 'Exception' with message 'Method showpostssAction not found in controller App\Controllers\Blog'
+Stack trace: #0 C:\xampp\htdocs\MVC\Core\Router.php(106): Core\Controller->__call('showpostssActio...', Array)
+#1 C:\xampp\htdocs\MVC\Public\index.php(35): Core\Router->dispatch('blog/showpostss')
+#2 {main}
+Thrown in 'C:\xampp\htdocs\MVC\Core\Controller.php' on line 25
+[01-Sep-2021 19:47:00 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched ya negm!'
+Stack trace: #0 C:\xampp\htdocs\MVC\Public\index.php(35): Core\Router->dispatch('favicon.ico')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\MVC\Core\Router.php' on line 114
+[01-Sep-2021 19:47:50 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched ya negm!'
+Stack trace: #0 C:\xampp\htdocs\MVC\Public\index.php(35): Core\Router->dispatch('blogg')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\MVC\Core\Router.php' on line 114
+[01-Sep-2021 19:47:50 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched ya negm!'
+Stack trace: #0 C:\xampp\htdocs\MVC\Public\index.php(35): Core\Router->dispatch('favicon.ico')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\MVC\Core\Router.php' on line 114
+[01-Sep-2021 19:50:05 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched ya negm!'
+Stack trace: #0 C:\xampp\htdocs\MVC\Public\index.php(35): Core\Router->dispatch('blogg')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\MVC\Core\Router.php' on line 114
+[01-Sep-2021 19:50:05 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched ya negm!'
+Stack trace: #0 C:\xampp\htdocs\MVC\Public\index.php(35): Core\Router->dispatch('favicon.ico')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\MVC\Core\Router.php' on line 114
+[01-Sep-2021 19:50:22 Europe/Berlin] 
+
+Uncaught exception: 'Exception' with message 'No route matched ya negm!'
+Stack trace: #0 C:\xampp\htdocs\MVC\Public\index.php(35): Core\Router->dispatch('blogg')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\MVC\Core\Router.php' on line 114
+[01-Sep-2021 19:50:22 Europe/Berlin] 
+
+Uncaught exception: 'Exception' with message 'No route matched ya negm!'
+Stack trace: #0 C:\xampp\htdocs\MVC\Public\index.php(35): Core\Router->dispatch('favicon.ico')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\MVC\Core\Router.php' on line 114
+[01-Sep-2021 19:50:42 Europe/Berlin] 
+
+
+ .........Uncaught exception: 'Exception' with message 'No route matched ya negm!'
+Stack trace: #0 C:\xampp\htdocs\MVC\Public\index.php(35): Core\Router->dispatch('blogg')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\MVC\Core\Router.php' on line 114
+[01-Sep-2021 19:50:42 Europe/Berlin] 
+
+
+ .........Uncaught exception: 'Exception' with message 'No route matched ya negm!'
+Stack trace: #0 C:\xampp\htdocs\MVC\Public\index.php(35): Core\Router->dispatch('favicon.ico')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\MVC\Core\Router.php' on line 114
+[01-Sep-2021 19:51:27 Europe/Berlin] 
+
+
+ ......... 
+Uncaught exception: 'Exception' with message 'No route matched ya negm!'
+Stack trace: #0 C:\xampp\htdocs\MVC\Public\index.php(35): Core\Router->dispatch('blogg')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\MVC\Core\Router.php' on line 114
+[01-Sep-2021 19:51:27 Europe/Berlin] 
+
+
+ ......... 
+Uncaught exception: 'Exception' with message 'No route matched ya negm!'
+Stack trace: #0 C:\xampp\htdocs\MVC\Public\index.php(35): Core\Router->dispatch('favicon.ico')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\MVC\Core\Router.php' on line 114
+[01-Sep-2021 19:58:00 Europe/Berlin] 
+
+
+ ............ 
+Uncaught exception: 'Exception' with message 'No route matched ya negm!'
+Stack trace: #0 C:\xampp\htdocs\MVC\Public\index.php(35): Core\Router->dispatch('blogg')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\MVC\Core\Router.php' on line 114
+[01-Sep-2021 19:58:00 Europe/Berlin] 
+
+
+ ............ 
+Uncaught exception: 'Exception' with message 'No route matched ya negm!'
+Stack trace: #0 C:\xampp\htdocs\MVC\Public\index.php(35): Core\Router->dispatch('favicon.ico')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\MVC\Core\Router.php' on line 114
+[01-Sep-2021 19:58:39 Europe/Berlin] 
+
+
+ ............ 
+Uncaught exception: 'Exception' with message 'No route matched ya negm!'
+Stack trace: #0 C:\xampp\htdocs\MVC\Public\index.php(35): Core\Router->dispatch('blogg')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\MVC\Core\Router.php' on line 114
+[01-Sep-2021 19:58:40 Europe/Berlin] 
+
+
+ ............ 
+Uncaught exception: 'Exception' with message 'No route matched ya negm!'
+Stack trace: #0 C:\xampp\htdocs\MVC\Public\index.php(35): Core\Router->dispatch('blogg')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\MVC\Core\Router.php' on line 114
+[01-Sep-2021 19:58:45 Europe/Berlin] 
+
+
+ ............ 
+Uncaught exception: 'ErrorException' with message 'Undefined variable: his'
+Stack trace: #0 C:\xampp\htdocs\MVC\Core\Controller.php(20): Core\Error::errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 20, Array)
+#1 C:\xampp\htdocs\MVC\Core\Router.php(106): Core\Controller->__call('showpostsAction', Array)
+#2 C:\xampp\htdocs\MVC\Public\index.php(35): Core\Router->dispatch('blog/showposts')
+#3 {main}
+Thrown in 'C:\xampp\htdocs\MVC\Core\Controller.php' on line 20
+[01-Sep-2021 20:03:44 Europe/Berlin] 
+
+
+ ............ 
+Uncaught exception: 'Exception' with message 'Method showpostsaAction not found in controller App\Controllers\Blog'
+Stack trace: #0 C:\xampp\htdocs\MVC\Core\Router.php(106): Core\Controller->__call('showpostsaActio...', Array)
+#1 C:\xampp\htdocs\MVC\Public\index.php(35): Core\Router->dispatch('blog/showpostsa')
+#2 {main}
+Thrown in 'C:\xampp\htdocs\MVC\Core\Controller.php' on line 25
+[01-Sep-2021 20:03:56 Europe/Berlin] 
+
+
+ ............ 
+Uncaught exception: 'Exception' with message 'No route matched ya negm!'
+Stack trace: #0 C:\xampp\htdocs\MVC\Public\index.php(35): Core\Router->dispatch('blogg')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\MVC\Core\Router.php' on line 114
